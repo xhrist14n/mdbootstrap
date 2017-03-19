@@ -1,2 +1,0 @@
-# mdbootstrap
-test of mdbootstrap

@@ -1,0 +1,28 @@
+{
+  "name": "mdbootstrap",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.6",
+    "modernizr": "~2.8.1",
+    "MDBootstrap": "^4.3.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "scss/bootstrap.scss",
+        "dist/js/bootstrap.js",
+        "dist/css/bootstrap.css"
+       ]
+    },
+    "MDBootstrap": {
+      "main": [
+        "css/mdb.min.css",
+        "js/mdb.min.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
